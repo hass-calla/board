@@ -1,0 +1,36 @@
+@import '~swiper/swiper-bundle.css';
+@import "fonts";
+@import "reset";
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: 'MuseoModerno', 'Heebo', cursive;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
+}
+
+button {
+  font-family: 'MuseoModerno', 'Heebo', cursive;
+}
+
+//.is-mono {
+//  font-family: 'B612 Mono', 'Heebo', 'MuseoModerno', cursive;
+//}
+
+.icon {
+  svg {
+	display: block;
+	width: 100%;
+	height: auto;
+  }
+}
+
+.page {
+  width: 100%;
+}
